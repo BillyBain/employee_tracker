@@ -21,7 +21,7 @@ Role.prototype.addRole = function(title, salary, department_id) {
 
 Role.prototype.showRoles = function() {
     this.db.query(
-        "SELECT * FROM role JOIN department ON role.department_id = department.id",
+        "SELECT * FROM role",
         function (err, res) {
             if (err) console.log(err);
             console.log("\n");

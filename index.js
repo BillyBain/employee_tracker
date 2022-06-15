@@ -148,13 +148,13 @@ const addEmployee = function () {
               }
             ])
             .then((employeeResults => {
-              let role_id = null;
+              let role_id;
               for (let i = 0; i < rRes.length; i++) {
                 if (rRes[i].title === employeeResults.role) {
                   role_id = rRes[i].id;
                   break;
                 }
-                let manager_id = null;
+                let manager_id;
                 for (let i = 0; i < eRes.length; i++) {
                   if (eRes[i].first_name + " " + eRes[i].last_name === employeeResults.manager) {
                     manager_id = eRes[i].id;
