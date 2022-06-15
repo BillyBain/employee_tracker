@@ -28,7 +28,7 @@ This is used to set up a database to hold all employees, roles, and departments.
 # Links
 Github Repo: https://github.com/BillyBain/employee_tracker
 
-Video Tutorial: https://watch.screencastify.com/v/2nCPxW8J06lGMvjsZcZO
+Video Tutorial: https://watch.screencastify.com/v/iBC3f0j2hkpAKM62fCoW
 
 # Test Instructions
 Once 'node index.js' is running you will be prompted with a series of options. By selecting an option you will go thru the prompts and then when finished the data will be save to the appropriate table in the database. If you selected one of the 'show' options you will be presented with a the table of the corresponding option.
